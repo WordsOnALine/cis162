@@ -1,0 +1,48 @@
+@charset "uft-8";
+
+
+html {
+ background-color: lightblue;
+}
+
+body {
+	background-color: ivory;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+	color: white;
+	line-height:2em;
+	padding-left:50px;
+	background-color: blue;
+}
+
+h1, h2 {
+	line-height:2em;
+	font-family: Quicksand, Verdana, Geneva, sans-serif;
+	letter-spacing: 0.1em;
+}
+
+nav {
+	font-size:150%;
+	line-height:2em;
+	list-style-type: none;
+	padding-left:50px;
+}
+
+section {
+	line-height:2em;
+	padding-left:50px;
+	background-color: darkorange;
+	width:75%;
+
+}
+
+footer {
+	color: white;
+	line-height:2em;
+	padding-left:50px;
+	background-color: black;
+	font-family: Quicksand, Verdana, Geneva, sans-serif;
+	letter-spacing: 0.1em;
+}
