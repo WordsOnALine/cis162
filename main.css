@@ -5,18 +5,16 @@ html {
  background-color: lightblue;
 }
 
+
 body {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+   
 	background-color: ivory;
 	font-family: Verdana, Geneva, sans-serif;
 	border: 4px solid blue;
-	
-}
-
-body {
-
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;
 }
 
 header {
@@ -58,6 +56,7 @@ nav a {
 }
 
 p#space{
+	clear: both;
 	color: ivory
 }
 
@@ -91,27 +90,38 @@ section#leftColumn{
 section#rightColumn{
 	float: right;
 	border-right: none;
+
 }
 
 section#leftColumn img {
 	border: 4px solid #818181;
 	background-color: ivory;
-	
+	width: 33%;
+	height: 33%;
 }
+
 
 section#leftColumn h2#new {
 	border: 4px solid #818181;
 	background-color: ivory;
 	font-family: 'Courier New', monospace;
-	
+
 }
 
+
+section#rightColumn img {
+	
+	padding-left: 300px;
+	width: 50%;
+	height: 50%
+}
 
 section#rightColumn h2#new, h2#new2 {
 	line-height: 1em;
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Brush Script MT', cursive;
 }
+
 
 footer {
 	display: block;
