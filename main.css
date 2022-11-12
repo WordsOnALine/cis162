@@ -1,4 +1,4 @@
-@charset "uft-8";
+@charset "utf-8";
 
 
 html {
@@ -8,41 +8,126 @@ html {
 body {
 	background-color: ivory;
 	font-family: Verdana, Geneva, sans-serif;
+	border: 4px solid blue;
+	
+}
+
+body {
+
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
 }
 
 header {
+
 	color: white;
 	line-height:2em;
-	padding-left:50px;
 	background-color: blue;
+	padding: 1px;
+
 }
 
-h1, h2 {
+
+h1, h2{
+	text-align: center;
 	line-height:2em;
 	font-family: Quicksand, Verdana, Geneva, sans-serif;
 	letter-spacing: 0.1em;
 }
 
-nav {
-	font-size:150%;
-	line-height:2em;
-	list-style-type: none;
-	padding-left:50px;
+header h1 {
+	text-align: left;
+	padding-left: 20px;
+	text-shadow: 5px 2px black;
+}
+
+nav a {
+
+	display: block;
+	float: left;
+	border: 4px solid #818181;
+	
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #fefbd8;
+	width: 33.33333%;
+	
+	line-height:3.4em;
+
+}
+
+p#space{
+	color: ivory
+}
+
+nav a#current {
+	background-color: ivory;
+	border: none;
+	border-top: 4px solid orange;;
+	
+}
+
+
+nav a {
+	color: black;
+	font-size: 1.5em;
+	text-decoration: none;
 }
 
 section {
+	border: 4px solid #818181;
 	line-height:2em;
-	padding-left:50px;
-	background-color: darkorange;
-	width:75%;
+	padding: 25px;
+	background-color: #fefbd8;
+	width:33%;
+}
 
+section#leftColumn{
+	float: left;
+	border-left: none;
+}
+
+section#rightColumn{
+	float: right;
+	border-right: none;
+}
+
+section#leftColumn img {
+	border: 4px solid #818181;
+	background-color: ivory;
+	
+}
+
+section#leftColumn h2#new {
+	border: 4px solid #818181;
+	background-color: ivory;
+	font-family: 'Courier New', monospace;
+	
+}
+
+
+section#rightColumn h2#new, h2#new2 {
+	line-height: 1em;
+	font-size: 3em;
+	font-family: 'Brush Script MT', cursive;
 }
 
 footer {
-	color: white;
+	display: block;
+	clear: both;
 	line-height:2em;
-	padding-left:50px;
-	background-color: black;
+	background-color: ivory;
 	font-family: Quicksand, Verdana, Geneva, sans-serif;
 	letter-spacing: 0.1em;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+footer a {
+	color: black;
+	border: 4px solid blue;
+	background-color: #fefbd8;
+	text-decoration: none;
+	font-size: 2em;
 }
